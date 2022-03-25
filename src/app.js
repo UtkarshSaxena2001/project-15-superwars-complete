@@ -122,7 +122,10 @@ class Superwar {
     // Check for fight
     isFight = () => {
         // Type your code here
-
+        if (yhis.strength > 0) 
+            return 'clash';
+        else
+            return 'peace;'
         // return  'clash' or 'peace';
     }
 
